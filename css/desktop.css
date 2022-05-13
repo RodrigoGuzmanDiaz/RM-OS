@@ -1,0 +1,31 @@
+.escritorio{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.fondo{
+    background-image: url(https://goo.su/um5TBYo);
+    background-size: cover;
+
+    width: 112rem;
+    height: 55rem;
+    
+    background-color: var(--colorFondo);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.menu_deplegado{
+    display: none;
+    width: 40rem;
+    height: 45rem;
+    background-color: #1F1F1F;
+}
+.activar{
+    display: block;
+}
